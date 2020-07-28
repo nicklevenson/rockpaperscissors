@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6809e639db.js" crossorigin="anonymous"></script> 
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+    <audio id="slap1">
+        <source src="assets/slap.mp3"></source>
+    </audio>
+
+    <audio>
+        <source src="assets/drumroll.mp3"></source>
+    </audio>
+
+    <audio>
+        <source src="assets/win.mp3"></source>
+    </audio>
+
+    <audio>
+        <source src="assets/loss.mp3"></source>
+    </audio>
+
+
+ <div id="titlecontainer">
+        <div id=title>Rock, Paper, Scissors</div>
+        <div id=subtitle>Pick your weapon.</div>
+    
+   
+    <div id="buttoncontainer">
+
+        <div id="rockbutton" class="buttoncontent">
+            <button id="buttonrock" class="button">
+                <i id="rockimage" class="fas fa-hand-rock fa-10x"></i>
+            </button>
+        </div>
+        <div id="paperbutton" class="buttoncontent">
+            <button id="buttonpaper" class="button">
+                <i id="paperimage" class="fas fa-hand-paper fa-10x"></i>
+            </button>
+        </div>
+        <div id="scissorbutton" class="buttoncontent">
+            <button id="buttonscissors" class="button">
+                <i id="scissorimage" class="fas fa-hand-scissors fa-10x"></i>
+            </button>
+        </div>
+    
+   
+            <div id="computeractions"></div>
+    
+            <div id="result"></div>
+
+            <div id="scoreheadingcontainerplayer">
+                Your score is 0/5</div>
+
+            <div id="scoreheadingcontainercomputer">
+                Comp's score is 0/5 </div>
+
+            <div id="tournamentresults"></div>
+            <div id="restartcontainer"><button id="restart" class="button">Restart</button></div>
+        
+            <script src="javascript.js"></script>
+
+    </div> 
+</div>    
+ 
+</body>
+</html>
