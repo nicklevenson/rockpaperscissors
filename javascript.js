@@ -12,7 +12,7 @@ document.getElementById("buttonrock").onmouseover = function drumroll(){
 }
 document.getElementById("buttonrock").onmouseout = function drumroll(){
     var audio2 = document.getElementsByTagName("audio")[1];
-    //audio2.pause();
+    audio2.pause();
 }
 
 document.getElementById("buttonpaper").onmouseover = function drumroll(){
