@@ -9,12 +9,13 @@
   
 document.getElementById("buttonrock").onmouseover = function drumroll(){
     var audio2 = document.getElementsByTagName("audio")[1];
-    audio.play();
+    audio2.play();
     audio2.loop = true;
+    
 }
 document.getElementById("buttonrock").onmouseout = function drumroll(){
     var audio2 = document.getElementsByTagName("audio")[1];
-    audio2.pause();
+   // audio2.pause();
 }
 
 document.getElementById("buttonpaper").onmouseover = function drumroll(){
