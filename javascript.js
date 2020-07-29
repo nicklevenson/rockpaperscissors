@@ -7,7 +7,8 @@
   
 document.getElementById("buttonrock").onmouseover = function drumroll(){
     var audio2 = document.getElementsByTagName("audio")[1];
-    audio2.play();
+    Audio.load();
+    fetchAudioAndPlay();
     audio2.loop = true;
 }
 document.getElementById("buttonrock").onmouseout = function drumroll(){
