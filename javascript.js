@@ -5,31 +5,6 @@
     let playervalue = "";
     let y = "";
 
-// Initializing values
-var isPlaying = true;
-
-// On video playing toggle values
-audio.onplaying = function() {
-    isPlaying = true;
-};
-
-// On video pause toggle values
-audio.onpause = function() {
-    isPlaying = false;
-};
-
-// Play video function
-function playVid() {      
-    if (audio.paused && !isPlaying) {
-        audio.play();
-    }
-} 
-
-// Pause video function
-function pauseVid() {     
-    if (!audio.paused && isPlaying) {
-        audio.pause();
-    }
 }
   
 document.getElementById("buttonrock").onmouseover = function drumroll(){
