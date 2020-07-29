@@ -5,7 +5,6 @@
     let playervalue = "";
     let y = "";
 
-}
   
 document.getElementById("buttonrock").onmouseover = function drumroll(){
     var audio2 = document.getElementsByTagName("audio")[1];
